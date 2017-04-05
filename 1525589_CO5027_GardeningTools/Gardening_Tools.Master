@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Gardening_Tools.master.cs" Inherits="_1525589_CO5027_GardeningTools.Gardening_Tools" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Blooming_Meadow</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/BloomingMeadow.css" rel="stylesheet" />
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+     <!-- this is where you put your meta and styles -->
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="content">
+	<div id="header">
+		<h1>Blooming Meadow</h1>
+	</div>
+		<div id="menu">
+		<ul>
+			<li><a href="Default.aspx">Home</a></li>
+			<li><a href="Shop.aspx">Shop</a></li>
+			<li><a href="Cart.aspx">Cart</a></li>
+			<li><a href="Contact.aspx">Contact</a></li>
+			<li><a href="Login.aspx">Login</a></li>
+			
+		</ul>
+	</div>
+
+        <!-- this is where the navagation button is place -->
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <!-- let this be empty for the contetnt -->
+        </asp:ContentPlaceHolder>
+  </div>
+            <footer> 
+			<p class="footer"> Copyright &#174; 1525589</p> 
+            </footer>   
+           
+           </div>
+          
+        
+        
+
+        <!-- this is for your footer -->
+
+    </form>
+</body>
+</html>

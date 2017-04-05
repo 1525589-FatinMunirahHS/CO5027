@@ -66,7 +66,40 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\BloomingMeadow.css" />
+    <Content Include="images\Background\background.jpg" />
+    <Content Include="images\Coming_Soon\Not available.jpg" />
+    <Content Include="images\Home\Gloves.jpg" />
+    <Content Include="images\Home\Hoe.jpg" />
+    <Content Include="images\Home\Mini_Rakes.jpg" />
+    <Content Include="images\Logo\logo2.jpg" />
+    <Content Include="images\Shop\Chain_saw.JPG" />
+    <Content Include="images\Shop\Digging_Fork.jpg" />
+    <Content Include="images\Shop\Fertelizer.jpg" />
+    <Content Include="images\Shop\Flower_Cutter.jpg" />
+    <Content Include="images\Shop\Fogger.JPG" />
+    <Content Include="images\Shop\Shear.jpg" />
+    <Content Include="images\Shop\Shovel.jpg" />
+    <Content Include="images\Shop\Sprinkler.jpg" />
+    <Content Include="images\Shop\Trowel.jpg" />
+    <Content Include="images\Shop\Watering_Can.jpg" />
+    <Content Include="images\Shop\Wheel_Barrel.jpg" />
+    <Content Include="images\Shop\Wood_Shreeder.jpg" />
     <Content Include="packages.config" />
+    <Content Include="Gardening_Tools.Master" />
+    <Content Include="Default.aspx" />
+    <Content Include="Shop.aspx" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Coming_Soon.aspx" />
+    <Content Include="Contact.aspx" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,10 +113,59 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gardening_Tools.Master.cs">
+      <DependentUpon>Gardening_Tools.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gardening_Tools.Master.designer.cs">
+      <DependentUpon>Gardening_Tools.Master</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coming_Soon.aspx.cs">
+      <DependentUpon>Coming_Soon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coming_Soon.aspx.designer.cs">
+      <DependentUpon>Coming_Soon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
