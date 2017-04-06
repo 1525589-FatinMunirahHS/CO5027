@@ -85,12 +85,21 @@ namespace _1525589_CO5027_GardeningTools {
         protected global::System.Web.UI.WebControls.TextBox TxtMsg;
         
         /// <summary>
-        /// btnSend control.
+        /// BtnSend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSend;
+        protected global::System.Web.UI.WebControls.Button BtnSend;
+        
+        /// <summary>
+        /// LitResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitResult;
     }
 }

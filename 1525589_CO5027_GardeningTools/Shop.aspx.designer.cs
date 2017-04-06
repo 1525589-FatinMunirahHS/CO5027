@@ -11,7 +11,7 @@ namespace _1525589_CO5027_GardeningTools
 {
 
 
-    public partial class WebForm2
+    public partial class Shop
     {
     }
 }

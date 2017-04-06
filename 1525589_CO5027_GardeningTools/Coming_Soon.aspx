@@ -4,8 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2> Coming Soon</h2>
     <img class="not_available" alt="Coming_Soon"  src="images/Coming_Soon/Not%20available.jpg" />
-  <div id="here"> <a href ="Default.aspx"> Home </a> 
-                  <a href ="Contact.aspx">Contact</a> 
+  <div id="here"> <a href ="~/Default.aspx" runat="server" > Home </a> 
+                  <a href ="~/Contact.aspx" runat="server" >Contact</a> 
 
   </div> 
 

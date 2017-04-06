@@ -21,11 +21,11 @@
 	</div>
 		<div id="menu">
 		<ul>
-			<li><a href="Default.aspx">Home</a></li>
-			<li><a href="Shop.aspx">Shop</a></li>
-			<li><a href="Cart.aspx">Cart</a></li>
-			<li><a href="Contact.aspx">Contact</a></li>
-			<li><a href="Login.aspx">Login</a></li>
+			<li><a href="~/Default.aspx" runat="server">Home</a></li>
+			<li><a href="~/Shop.aspx" runat="server">Shop</a></li>
+			<li><a href="~/Cart.aspx" runat="server">Cart</a></li>
+			<li><a href="~/Contact.aspx" runat="server">Contact</a></li>
+			<li><a href="~/Login.aspx" runat="server">Login</a></li>
 			
 		</ul>
 	</div>

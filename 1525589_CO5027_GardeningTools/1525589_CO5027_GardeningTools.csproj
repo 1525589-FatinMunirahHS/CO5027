@@ -78,17 +78,24 @@
     <Content Include="images\Shop\Fertelizer.jpg" />
     <Content Include="images\Shop\Flower_Cutter.jpg" />
     <Content Include="images\Shop\Fogger.JPG" />
+    <Content Include="images\Shop\Fork_Shovel.jpg" />
+    <Content Include="images\Shop\Garden_Spayer.jpg" />
+    <Content Include="images\Shop\Gloves.jpg" />
+    <Content Include="images\Shop\Hoe.jpg" />
+    <Content Include="images\Shop\Hose.jpeg" />
+    <Content Include="images\Shop\Khurpa.jpg" />
+    <Content Include="images\Shop\Mini_Rakes.jpg" />
+    <Content Include="images\Shop\Preesure_Sprayer.JPG" />
+    <Content Include="images\Shop\Purple_Trowel.jpg" />
     <Content Include="images\Shop\Shear.jpg" />
     <Content Include="images\Shop\Shovel.jpg" />
-    <Content Include="images\Shop\Sprinkler.jpg" />
     <Content Include="images\Shop\Trowel.jpg" />
     <Content Include="images\Shop\Watering_Can.jpg" />
-    <Content Include="images\Shop\Wheel_Barrel.jpg" />
-    <Content Include="images\Shop\Wood_Shreeder.jpg" />
+    <Content Include="Shop.aspx" />
+    <Content Include="Wood_Shreeder.jpg" />
     <Content Include="packages.config" />
     <Content Include="Gardening_Tools.Master" />
     <Content Include="Default.aspx" />
-    <Content Include="Shop.aspx" />
     <Content Include="Cart.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Coming_Soon.aspx" />
@@ -131,13 +138,6 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Shop.aspx.cs">
-      <DependentUpon>Shop.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Shop.aspx.designer.cs">
-      <DependentUpon>Shop.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Cart.aspx.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,6 +165,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

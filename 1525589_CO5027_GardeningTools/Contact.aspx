@@ -70,8 +70,10 @@
         <br />
         <asp:TextBox ID="TxtMsg" runat="server" Height="248px" Width="745px"></asp:TextBox>
         <br />
-        <asp:Button ID="btnSend" runat="server" Text="Send" />
-    </div>
+            <asp:Button ID="BtnSend" runat="server" OnClick="BtnSend_Click" Text="Send" />
+        <br />
+        <asp:Literal ID="LitResult" runat="server"></asp:Literal>
+        </div>
         
                  
      </asp:Content>
