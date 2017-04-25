@@ -8,9 +8,9 @@
 		know what to buy bellow shows the top seller items</p>
 		<div class="imgHome">
 		
-			<a href="~/Coming_Soon.aspx" runat="server" ><img  class="imgproduct" alt="Hoe" src="images/Home/Gloves.jpg" /> </a>
+			<a href="~/Coming_Soon.aspx" runat="server" ><img  class="imgproduct" alt="Gloves" src="images/Home/Gloves.jpg" /> </a>
 
-			<a href="~/Coming_Soon.aspx" runat="server" ><img  class="imgproduct" alt="Gloves" src="images/Home/Hoe.jpg"/></a>
+			<a href="~/Coming_Soon.aspx" runat="server" ><img  class="imgproduct" alt="Hoe" src="images/Home/Hoe.jpg"/></a>
 			
 			<a href="~/Coming_Soon.aspx" runat="server" ><img  class="imgproduct" alt="Mini Rake"  src="images/Home/Mini_Rakes.jpg"/></a>	
 			

@@ -59,19 +59,29 @@
             <br />
         <asp:Label ID="LblName" runat="server" Text="Name:"></asp:Label>
         <asp:TextBox ID="TxtName" runat="server" Width="295px"></asp:TextBox>
-        <br />
+        <asp:RequiredFieldValidator ID="reqNameValidator" runat="server" ControlToValidate="txtName" ErrorMessage="Name is required."></asp:RequiredFieldValidator>
+            <br />
+            <br />
+
         <asp:Label ID="LblEmail" runat="server" Text="Email:"></asp:Label>
+
         <asp:TextBox ID="TxtEmail" runat="server" Width="563px"></asp:TextBox>
-        <br />
-        <asp:Label ID="LblSubject" runat="server" Text="Subject"></asp:Label>
+            <asp:RequiredFieldValidator ID="reqFieldEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email is required."></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="RegExprChkEMail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid email format." ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+             <br />
+             <br />
+
+        <asp:Label ID="LblSubject" runat="server" Text="Subject"></asp:Label>    
         <asp:TextBox ID="TxtSubject" runat="server" Width="552px"></asp:TextBox>
         <br />
+
         <asp:Label ID="LblMsg" runat="server" Text="Message"></asp:Label>
         <br />
         <asp:TextBox ID="TxtMsg" runat="server" Height="248px" Width="745px"></asp:TextBox>
         <br />
-            <asp:Button ID="BtnSend" runat="server" OnClick="BtnSend_Click" Text="Send" />
+        <asp:Button ID="btnSendEmail" runat="server"  OnClick="btnSendEmail_Click" Text="Send"  />
         <br />
+            
         <asp:Literal ID="LitResult" runat="server"></asp:Literal>
         </div>
         

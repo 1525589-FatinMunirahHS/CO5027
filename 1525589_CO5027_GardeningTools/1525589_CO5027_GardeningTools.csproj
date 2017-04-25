@@ -92,7 +92,6 @@
     <Content Include="images\Shop\Trowel.jpg" />
     <Content Include="images\Shop\Watering_Can.jpg" />
     <Content Include="Shop.aspx" />
-    <Content Include="Wood_Shreeder.jpg" />
     <Content Include="packages.config" />
     <Content Include="Gardening_Tools.Master" />
     <Content Include="Default.aspx" />

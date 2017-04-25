@@ -15,7 +15,8 @@ namespace _1525589_CO5027_GardeningTools
 
         }
 
-        protected void BtnSend_Click(object sender, EventArgs e)
+
+        protected void btnSendEmail_Click(object sender, EventArgs e)
         {
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
@@ -23,15 +24,15 @@ namespace _1525589_CO5027_GardeningTools
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
             System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("c05027lcb@gmail.com", "P@55word1");
+                 new System.Net.NetworkCredential("ah.teams@gmail.com", "@hteam1234");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", TxtEmail.Text);
+            MailMessage msg = new MailMessage("ah.teams@gmail.com", TxtEmail.Text);
             msg.Subject = "Name: " + TxtName.Text + " Subject: " + TxtSubject.Text;
             msg.Body = TxtMsg.Text;
             smtpClient.Send(msg);
-
+          
             try
             {
                 smtpClient.Send(msg);
