@@ -45,10 +45,16 @@
 	 <script>
 	      var map;
 	      function initMap() {
-	        map = new google.maps.Map(document.getElementById('map'), {
-	            center: {lat: 4.965387, lng: 114.8489734},
-	          zoom: 15
-	        });
+                           var uluru = { lat: 4.965387, lng: 114.8489734 };
+              var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 15,
+                  center: uluru
+              });
+              var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+              });
+
 	      }
 	    </script>
 	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkGQHPZ7Qtc8r3gNWJYzPJ21gDYB2XKbo&callback=initMap"
@@ -73,9 +79,11 @@
 
         <asp:Label ID="LblSubject" runat="server" Text="Subject"></asp:Label>    
         <asp:TextBox ID="TxtSubject" runat="server" Width="552px"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtSubject" ErrorMessage="Subject is required."></asp:RequiredFieldValidator>
         <br />
 
         <asp:Label ID="LblMsg" runat="server" Text="Message"></asp:Label>
+              <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtMsg" ErrorMessage="Message is required."></asp:RequiredFieldValidator>
         <br />
         <asp:TextBox ID="TxtMsg" runat="server" Height="248px" Width="745px"></asp:TextBox>
         <br />
