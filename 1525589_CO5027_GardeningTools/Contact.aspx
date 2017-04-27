@@ -28,7 +28,7 @@
 		Singapore. Its main branch is at Brunei Darussalam</p>
 		<ul>
 			<li>Blooming Meadow</li>
-			<li>Bander Seri Begawan</li>
+			<li>Jerudong</li>
 			<li>Brunei Darussalam</li>
 			<li>BS 111</li>
 		</ul>
