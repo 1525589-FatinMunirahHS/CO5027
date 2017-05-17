@@ -122,14 +122,18 @@ img {
 .imgHome {
 	padding-bottom: 5px;
 	padding-top: 10.0px;
-	margin-left: 500px;
-	float:left;
+    margin-right:590px;
+    margin-left:500px;
+    border:none;
+    display:inline;
+	
 }
 
 .imgShop{
     padding-bottom:20px;
 	padding-top:80px;
     margin-left:180px;
+  
 
 }
 
@@ -203,13 +207,25 @@ td {
 	text-align: center;
 }
 table {
-	margin-left:650px;
-	}
+    margin-left: 300px;
+    margin-right: 157px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+Table.Timetable
+{
+    margin-left:580px;
+     margin-right: 570px;
+   
+   
+}
+
 /* for Lists*/
 ul {
 	list-style-type: none;
 	text-align:center;
 }
+
 
 
 /*for Map*/
@@ -227,3 +243,9 @@ ul {
     margin-left:300px;
 }
 
+h1.SignUp{
+    text-align:left;
+}
+h1.Login{
+    text-align:left;
+}

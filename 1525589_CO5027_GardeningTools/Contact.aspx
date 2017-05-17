@@ -5,7 +5,8 @@
     <h2>Contact </h2>
 	<p> Bloomimg Meadow has retail shop too which opens everyday but not on 
 	saturday:</p>
-	<table>
+	
+     <table class ="timetable">
 			<tr>
 				<th>Day</th>
 				<th>Time</th>
@@ -22,13 +23,14 @@
 			</tr>
 			
 		   </table>
+      
 		
      
 		<p> The Branches are all around asia, which is in Indonesia, Malaysia, 
 		Singapore. Its main branch is at Brunei Darussalam</p>
 		<ul>
 			<li>Blooming Meadow</li>
-			<li>Jerudong</li>
+            <li>Jerudong</li>
 			<li>Brunei Darussalam</li>
 			<li>BS 111</li>
 		</ul>

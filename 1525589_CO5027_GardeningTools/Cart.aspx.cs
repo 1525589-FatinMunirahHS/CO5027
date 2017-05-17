@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,20 @@ namespace _1525589_CO5027_GardeningTools
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          
+          
+            ;
+        }
+       
+        protected void btnUpload_Click(object sender, EventArgs e)
+        {
+           
+        }
 
+        protected void LogOut_Click(object sender, EventArgs e)
+        {
+            HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            Server.Transfer("Login.aspx", true);
         }
     }
 }
